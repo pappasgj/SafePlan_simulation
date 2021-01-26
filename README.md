@@ -1,4 +1,4 @@
-# SafePlan simulation
+# SafePlan
 
 SafePlan is an implementation of optimal temporal logic planning for multi-robot systems in uncertain semantic maps [1]. The goal of this planner is to complete collaborative high-level tasks captured by global temporal logic specifications in the presence of uncertainty in the workspace. The workspace is modeled as a semantic map determined by Gaussian distributions over landmark positions and arbitrary discrete distributions over landmark classes. We extend Linear Temporal Logic by including information-based predicates allowing us to incorporate uncertainty and probabilistic satisfaction requirements directly into the task specification. We propose a new highly scalable sampling-based approach that simultaneously searches the semantic map along with an automaton corresponding to the task and synthesizes paths that satisfy the assigned task specification. 
 The solution of the planner [biased_TLRRT_star.py](rotors_simulator/rotors_gazebo/scripts/biased_TLRRT_star.py) can be visualized in the simulation environment. This simulation 
